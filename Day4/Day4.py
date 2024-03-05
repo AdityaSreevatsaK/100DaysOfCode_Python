@@ -1,6 +1,6 @@
 import random
 
-print("Day 4 - 100 Days of Code")
+print("Day 4 - 100 Days of Code.")
 print("Welcome to Rock, Paper and Scissors.")
 
 rock = '''

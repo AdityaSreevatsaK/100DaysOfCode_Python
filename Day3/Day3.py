@@ -1,4 +1,4 @@
-print("Day 3 - 100 Days of Code")
+print("Day 3 - 100 Days of Code.")
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 crossroad = input("You're at a cross road. Where do you want to do? Type 'left' or 'right'. \n")

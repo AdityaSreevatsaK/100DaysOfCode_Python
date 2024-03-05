@@ -1,4 +1,4 @@
-print("Day 2 - 100 Days of Code")
+print("Day 2 - 100 Days of Code.")
 print("Welcome to Tip Calculator.")
 billAmount = float(input("What is the total bill amount in Rupees?\n"))
 tipPercentage = 0
