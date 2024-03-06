@@ -22,11 +22,14 @@ for letter in random_word_list:
     print(underscore, end=empty_string)
 print("\n")
 
-'''
-Description:    Method to replace the underscores with the correctly guess characters.
-Returns:        The current status of the user's guess of the randomised word.
-'''
+
 def replace_unknown_with_user_entry(entry_from_user, current_status):
+    """
+    Description:
+        Method to replace the underscores with the correctly guessed characters.
+    Returns:
+        str: The current status of the user's guess of the randomised word.
+    """
     counter = zero
     current_status_list = list(current_status)
     for element in current_status_list:
