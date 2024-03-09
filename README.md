@@ -12,3 +12,7 @@ List of projects in this repository:
 * [Day 7](Day7): Hangman.
 * [Day 8](Day8): Caesar Cipher.
 * [Day 9](Day9): Secret Auction.
+* [Day 10](Day10): Calculator.
+* [Day 11](Day11): Blackjack - Capstone.
+* [Day 12](Day12): Number Guesser.
+* [Day 13](Day13): 

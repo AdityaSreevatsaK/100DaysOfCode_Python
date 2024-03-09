@@ -61,7 +61,7 @@ while lives_remaining > zero and word_guessed is False:
         print(status)
     if lives_remaining == zero:
         print("Oh no! Game over.")
-        print("The correct answer was", empty_string.join(random_word_list))
+        print(f"The correct answer was {empty_string.join(random_word_list)}.")
         break
     if word_guessed is True:
         print("Yay! Word guessed correctly. You win!")
