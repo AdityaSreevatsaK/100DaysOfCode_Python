@@ -9,7 +9,11 @@ warnings.filterwarnings("ignore", category=SyntaxWarning)
 print("Day 11 - 100 Days of Code.")
 print("Welcome to the Blackjack Game.")
 print(blackjack_logo)
-
+one = 1
+does_user_want_to_play = True
+is_user_winner = False
+is_dealer_winner = False
+twenty_one = 21
 
 def generate_random_card():
     """
@@ -56,8 +60,8 @@ def determine_total_and_alter_hand(dealt_hand: list):
             new_hand.append(dealt_hand[index])
         elif dealt_hand[index] == "A":
             if dealt_hand_total + 11 > twenty_one:
-                dealt_hand_total += 1
-                new_hand.append(1)
+                dealt_hand_total += one
+                new_hand.append(one)
             else:
                 dealt_hand_total += 11
                 new_hand.append(11)
@@ -121,10 +125,6 @@ def determine_winner(users_hand, dealers_hand):
         sys.exit()
 
 
-does_user_want_to_play = True
-is_user_winner = False
-is_dealer_winner = False
-twenty_one = 21
 user_hand = [generate_random_card(), generate_random_card()]
 dealer_hand = [generate_random_card(), generate_random_card()]
 

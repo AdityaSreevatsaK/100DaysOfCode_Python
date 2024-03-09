@@ -10,4 +10,4 @@ if tipGiven.lower()[zero] == "y":
         tipPercentage = zero
 numberOfMembers = int(input("How many people should the bill be split between?\n"))
 amountPerMember = (billAmount + (billAmount * tipPercentage / 100)) / numberOfMembers
-print("Each person should pay Rs. ", round(amountPerMember, 2))
+print("Each person should pay ₹", round(amountPerMember, 2))

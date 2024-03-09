@@ -1,6 +1,8 @@
 print("Day 6 - 100 Days of Code.")
 print("Welcome to the Reeborg's World.")
 print("URL to Reeborg's World: https://reeborg.ca/reeborg.html")
+
+
 def turn_left():
     print("Reeborg turns left.")
 

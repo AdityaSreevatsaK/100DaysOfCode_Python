@@ -30,27 +30,29 @@ scissors = '''
 ---.__(___)
 '''
 
+zero = 0
+two = 2
 userChoice = int(input("What do you choose? Type 0 : Rock, 1 : Paper, 2 : Scissors.\n"))
 yourChoiceString = "Your choice:\n"
 computersChoiceString = "Computer choice:\n"
-youLoseString = "You lose. :("
-youWinString = "You win! ;)"
+youLoseString = "You lose. 😭"
+youWinString = "You win! 😉"
 
-computerChoice = random.randint(0, 2)
+computerChoice = random.randint(zero, two)
 rockPaperScissor = [rock, paper, scissors]
 
-if userChoice > 2 or userChoice < 0:
+if userChoice > two or userChoice < zero:
     print("You typed an invalid number." + youLoseString)
 else:
     print(yourChoiceString, rockPaperScissor[userChoice])
     print(computersChoiceString, rockPaperScissor[computerChoice])
-    if userChoice == 0 and computerChoice == 2:
+    if userChoice == zero and computerChoice == two:
         print(youWinString)
-    elif computerChoice == 0 and userChoice == 2:
+    elif computerChoice == zero and userChoice == two:
         print(youLoseString)
     elif computerChoice > userChoice:
         print(youLoseString)
     elif userChoice > computerChoice:
         print(youWinString)
     elif computerChoice == userChoice:
-        print("It's a draw. :/")
+        print("It's a draw. 🫤")

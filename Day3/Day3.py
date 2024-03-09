@@ -1,5 +1,12 @@
+import warnings
+
+from treasure_island_art import treasure_island_logo
+
+warnings.filterwarnings("ignore", category=SyntaxWarning)
+
 print("Day 3 - 100 Days of Code.")
 print("Welcome to Treasure Island.")
+print(treasure_island_logo)
 print("Your mission is to find the treasure.")
 crossroad = input("You're at a cross road. Where do you want to do? Type 'left' or 'right'. \n")
 if crossroad.lower() == "left":
