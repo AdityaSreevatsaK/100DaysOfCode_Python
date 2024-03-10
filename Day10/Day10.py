@@ -2,7 +2,9 @@ import warnings
 
 from calculator_art import calculator_logo
 
-warnings.filterwarnings("ignore", category=SyntaxWarning)
+with warnings.catch_warnings():
+    warnings.simplefilter('ignore', SyntaxWarning)
+    warnings.warn('bad', SyntaxWarning)
 print("Day 10 - 100 Days of Code.")
 print("Welcome to the Calculator App.")
 print(calculator_logo)

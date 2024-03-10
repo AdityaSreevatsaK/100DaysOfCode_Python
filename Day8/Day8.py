@@ -2,7 +2,9 @@ import warnings
 
 from caesar_cipher_art import caesar_cipher_logo
 
-warnings.filterwarnings("ignore", category=SyntaxWarning)
+with warnings.catch_warnings():
+    warnings.simplefilter('ignore', SyntaxWarning)
+    warnings.warn('bad', SyntaxWarning)
 print("Day 8 - 100 Days of Code.")
 print("Welcome to Caesar Cipher.")
 print(caesar_cipher_logo)

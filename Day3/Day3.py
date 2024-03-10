@@ -2,7 +2,9 @@ import warnings
 
 from treasure_island_art import treasure_island_logo
 
-warnings.filterwarnings("ignore", category=SyntaxWarning)
+with warnings.catch_warnings():
+    warnings.simplefilter('ignore', SyntaxWarning)
+    warnings.warn('bad', SyntaxWarning)
 
 print("Day 3 - 100 Days of Code.")
 print("Welcome to Treasure Island.")

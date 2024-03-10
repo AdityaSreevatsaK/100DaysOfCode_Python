@@ -5,7 +5,9 @@ from hangman_art import logo
 from hangman_art import stages
 from hangman_words import word_list
 
-warnings.filterwarnings("ignore", category=SyntaxWarning)
+with warnings.catch_warnings():
+    warnings.simplefilter('ignore', SyntaxWarning)
+    warnings.warn('bad', SyntaxWarning)
 print("Day 7 - 100 Days of Code.")
 print("Welcome to Hangman.")
 print(logo)
