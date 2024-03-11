@@ -15,4 +15,4 @@ List of projects in this repository:
 * [Day 10](Day10): Calculator.
 * [Day 11](Day11): Blackjack - Capstone.
 * [Day 12](Day12): Number Guesser.
-* [Day 13](Day13): 
+* [Day 13](Day13): Using the debugger.
