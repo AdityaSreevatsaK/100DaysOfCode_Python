@@ -17,3 +17,6 @@ List of projects in this repository:
 * [Day 12](Day12): Number Guesser.
 * [Day 13](Day13): Using the debugger.
 * [Day 14](Day14): Who has more followers?
+* [Day 15](Day15): Coffee Machine.
+* [Day 16](Day16): Coffee Machine - OOPs.
+* [Day 17](Day17): Trivia Quiz.
