@@ -2,21 +2,32 @@
 
 List of projects in this repository:
 
-## Beginner
-* [Day 1](Day1): Band Name Generator.
-* [Day 2](Day2): Tip Calculator.
-* [Day 3](Day3): Treasure Island.
-* [Day 4](Day4): Rock, Paper and Scissors.
-* [Day 5](Day5): Password Generator.
-* [Day 6](Day6): Reeborg's World.
-* [Day 7](Day7): Hangman.
-* [Day 8](Day8): Caesar Cipher.
-* [Day 9](Day9): Secret Auction.
-* [Day 10](Day10): Calculator.
-* [Day 11](Day11): Blackjack - Capstone.
-* [Day 12](Day12): Number Guesser.
+## Beginner.
+___
+* [Day 1](Day1/Day1.py): Band Name Generator.
+* [Day 2](Day2/Day2.py): Tip Calculator.
+* [Day 3](Day3/Day3.py): Treasure Island.
+* [Day 4](Day4/Day4.py): Rock, Paper and Scissors.
+* [Day 5](Day5/Day5.py): Password Generator.
+* [Day 6](Day6/Day6.py): Reeborg's World.
+* [Day 7](Day7/Day7.py): Hangman.
+* [Day 8](Day8/Day8.py): Caesar Cipher.
+* [Day 9](Day9/Day9.py): Secret Auction.
+* [Day 10](Day10/Day10.py): Calculator.
+* [Day 11](Day11/Day11.py): Blackjack - Capstone.
+* [Day 12](Day12/Day12.py): Number Guesser.
 * [Day 13](Day13): Using the debugger.
-* [Day 14](Day14): Who has more followers?
-* [Day 15](Day15): Coffee Machine.
-* [Day 16](Day16): Coffee Machine - OOPs.
-* [Day 17](Day17): Trivia Quiz.
+  * [Day 13](Day13/Day13_Debugging_FizzBuzz.py) - FizzBuzz.
+  * [Day 13](Day13/Day13_Debugging_LeapYear.py) - Leap Year.
+  * [Day 13](Day13/Day13_Debugging_OddOrEven.py) - Odd Or Even.
+* [Day 14](Day14/Day14.py): Who has more followers?
+## Intermediate.
+___
+* [Day 15](Day15/Day15.py): Coffee Machine.
+* [Day 16](Day16/Day16.py): Coffee Machine - OOPs.
+* [Day 17](Day17/Day17.py): Trivia Quiz.
+* [Day 18](Day18/Day18.py): Damien Hirst Painting.
+  * [Challenge 1](Day18/Day18Challenges.py): Draw a square.
+  * [Challenge 2](Day18/Day18Challenges.py): Draw a dashed line.
+  * [Challenge 3](Day18/Day18Challenges.py): Draw shapes - Triangle - Decagon.
+  * [Challenge 4](Day18/Day18Challenges.py): Draw a Spirograph.

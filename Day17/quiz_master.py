@@ -1,6 +1,7 @@
 zero = 0
 one = 1
 
+
 class QuizMaster:
     def __init__(self, question_list):
         self.question_number = zero
