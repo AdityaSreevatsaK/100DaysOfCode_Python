@@ -31,3 +31,5 @@ ___
   * [Challenge 2](Day18/Day18Challenges.py): Draw a dashed line.
   * [Challenge 3](Day18/Day18Challenges.py): Draw shapes - Triangle - Decagon.
   * [Challenge 4](Day18/Day18Challenges.py): Draw a Spirograph.
+* [Day 19](Day19/Day19.py): Turtle Race.
+  * [Challenge 1](Day19/Day19Challenges.py): Etch-A-Sketch.
