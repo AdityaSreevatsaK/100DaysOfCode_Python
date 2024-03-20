@@ -33,3 +33,4 @@ List of projects in this repository:
   * [Challenge 1](Day19/Day19Challenges.py): Etch-A-Sketch.
 * [Day 20](Day20/Day20.py) : Snake Game - Part 1.
 * [Day 21](Day21/Day21.py) : Snake Game - Complete.
+* [Day 22](Day22/Day22.py) : Pong: The Famous Arcade Game.
