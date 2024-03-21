@@ -15,9 +15,7 @@ ten = 10
 twenty = 20
 ninety = 90
 one_hundred_and_eighty = 180
-fastest_string = "fastest"
 game_over = False
-snake_body = []
 
 snake = Snake.Snake()
 snake_food = SnakeFood.SnakeFood()
@@ -31,7 +29,7 @@ screen.tracer(zero)
 
 graphics_turtle.pensize(ten)
 graphics_turtle.pencolor("gold")
-graphics_turtle.speed(fastest_string)
+graphics_turtle.speed("fastest")
 
 
 def draw_borders(draw_turtle):
@@ -96,7 +94,7 @@ while not game_over:
     if snake_food.distance(snake.head) < 15:
         scoreboard.update_score()
         snake_food.randomly_move_food()
-        snake.grow_tail(snake.snake_body[-1].pos())
+        snake.grow_tail(snake.snake_body[-one].pos())
     for body_part in snake.snake_body:
         if body_part == snake.head:
             pass

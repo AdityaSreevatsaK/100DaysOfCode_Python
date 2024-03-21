@@ -15,9 +15,7 @@ twenty = 20
 ninety = 90
 one_hundred_and_eighty = 180
 game_score = zero
-fastest_string = "fastest"
 game_over = False
-snake_body = []
 graphics_turtle = Turtle()
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -25,7 +23,7 @@ screen.title("Snake Game!")
 screen.bgcolor("darkblue")
 graphics_turtle.pensize(ten)
 graphics_turtle.pencolor("gold")
-graphics_turtle.speed(fastest_string)
+graphics_turtle.speed("fastest")
 
 
 def draw_borders(draw_turtle):
