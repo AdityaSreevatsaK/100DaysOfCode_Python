@@ -1,0 +1,10 @@
+Ant
+Bat
+Cat
+Duck
+Elephant
+Fish
+Gorilla
+Hamster
+Impala
+Jaguar
