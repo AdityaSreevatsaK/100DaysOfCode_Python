@@ -37,3 +37,6 @@ List of projects in this repository:
 * [Day 23](Day23/Day23.py): Turtle Crossing - Capstone.
 * [Day 24](Day24/Day24.py): Mail Merger. (Files, Directories and Paths)
   * [Challenge 1](Day24/Day24ImprovedSnakeGame/Day24Challenge.py): Adding the highscore functionality to Snake Game.
+* [Day 25](Day25/Day25.py): India States Game.
+  * [Challenge 1](Day25/Day25Challenge/Day25Challenge.ipynb): Great Squirrel Census Data (Pandas)
+  * [Challenge 2](Day25/USStatesGame/Day25Challenge2.py): US States Game.
