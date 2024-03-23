@@ -9,10 +9,18 @@ class Scoreboard(Turtle):
         self.print_score()
 
     def update_score(self):
+        """
+        Description:
+            Method to update the score and call the method to print it.
+        """
         self.score += 1
         self.print_score()
 
     def print_score(self):
+        """
+        Description:
+            Method to print the score on screen.
+        """
         self.clear()
         self.penup()
         self.goto(-30, 270)

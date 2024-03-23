@@ -14,12 +14,20 @@ class Paddle(Turtle):
         self.goto(x_coordinate, 0)
 
     def move_paddle_up(self):
+        """
+        Description:
+            Method to move the paddle up.
+        """
         y_coordinate = self.ycor()
         if y_coordinate > 225:
             return
         self.goto(self.xcor(), y_coordinate + twenty)
 
     def move_paddle_down(self):
+        """
+        Description:
+            Method to move the paddle down.
+        """
         y_coordinate = self.ycor()
         if y_coordinate < -215:
             return

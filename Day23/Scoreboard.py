@@ -10,6 +10,10 @@ class Scoreboard(Turtle):
         self.pencolor("purple2")
 
     def update_level(self):
+        """
+        Description:
+            Method to update the level on screen.
+        """
         self.clear()
         self.score += 1
         self.penup()

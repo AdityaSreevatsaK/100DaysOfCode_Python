@@ -3,7 +3,6 @@ from turtle import Turtle
 zero = 0
 
 
-
 class Scoreboard(Turtle):
     def __init__(self):
         # Adding mode to specifically allow permission to read. By default, it is read only.
@@ -15,10 +14,18 @@ class Scoreboard(Turtle):
         self.print_score()
 
     def update_score(self):
+        """
+        Description:
+            Method to update the score and call the display method.
+        """
         self.score += 1
         self.print_score()
 
     def reset_scoreboard(self):
+        """
+        Description:
+            Method to reset the scoreboard.
+        """
         if self.score > self.highscore:
             self.highscore = self.score
             with open("snake_game_highscore.txt", mode="w") as highscore_file:
@@ -27,10 +34,13 @@ class Scoreboard(Turtle):
         self.score = zero
 
     def print_score(self):
+        """
+        Description:
+            Method to update the score on the screen.
+        """
         self.clear()
         self.penup()
         self.goto(zero, 270)
         self.pendown()
         self.pencolor("White")
         self.write(f"Score: {self.score}. Highscore: {self.highscore}", align="center", font=("Courier", 15, "bold"))
-

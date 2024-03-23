@@ -95,6 +95,10 @@ def perform_challenges(turtle):
 
 
 def delete_eps_files(file_path):
+    """
+    Description:
+        Method to delete the said file.
+    """
     try:
         os.remove(file_path)
     except FileNotFoundError:

@@ -13,4 +13,8 @@ class SnakeFood(Turtle):
         self.randomly_move_food()
 
     def randomly_move_food(self):
+        """
+        Description:
+            Method to randomly generate food on screen for the snake.
+        """
         self.goto(random.randint(-280, 280), random.randint(-280, 280))

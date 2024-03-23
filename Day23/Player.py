@@ -15,4 +15,8 @@ class Player(Turtle):
         self.goto(STARTING_POSITION)
 
     def move_turtle(self):
+        """
+        Description:
+            Method to move the turtle by 10 units.
+        """
         self.forward(MOVE_DISTANCE)

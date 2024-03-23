@@ -1,5 +1,4 @@
 import os
-import sys
 from turtle import Screen, Turtle
 
 import pandas as pd
@@ -29,7 +28,12 @@ correct_guesses = []
 states_data = pd.read_csv("IndianStatesXYCor.csv")
 exit_trigger = False
 
+
 def game_won():
+    """
+    Description:
+        Method to display that the game is won after user has named all the states.
+    """
     graphics_turtle.goto(100, 230)
     graphics_turtle.pencolor("limegreen")
     graphics_turtle.write("YOU WIN!", font=("Palatino Linotype", 25, "italic"))
@@ -38,6 +42,10 @@ def game_won():
 
 
 def save_image():
+    """
+    Description:
+        Method to save the image after game is complete.
+    """
     fileName = "Indian States Game"
     graphics_turtle.getscreen().getcanvas().postscript(file=fileName + '.eps')
     img = Image.open(fileName + '.eps')
@@ -47,12 +55,20 @@ def save_image():
 
 
 def update_score():
+    """
+    Description:
+        Method to keep track and update the score.
+    """
     scoreboard.pencolor("orangered")
     scoreboard.clear()
     scoreboard.write(f"SCORE: {user_score}/{max_score}", font=("Courier", 20, "bold"))
 
 
 def display_remaining_states():
+    """
+    Description:
+        Method to display the remaining state names after user fails to do so.
+    """
     for state in states_data.State.values:
         if state in correct_guesses:
             pass
@@ -86,6 +102,10 @@ def delete_file(file_path):
 
 
 def display_state_name(guess):
+    """
+    Description:
+        Method to display the state name.
+    """
     x_coordinate = float(states_data.xCoordinate[states_data.State == guess].iloc[zero])
     y_coordinate = float(states_data.yCoordinate[states_data.State == guess].iloc[zero])
     graphics_turtle.goto(x_coordinate, y_coordinate)
@@ -93,13 +113,6 @@ def display_state_name(guess):
 
 
 update_score()
-
-def change_text_input_position(x, y):
-    # Move turtle to the specified position
-    screen.textinput("Input Dialog", "Enter something:", initial_text="", xpos=x, ypos=y)
-
-# Listen for clicks on the screen
-screen.onclick(change_text_input_position)
 
 screen.listen()
 screen.onkey(exit_game, key="Escape")
