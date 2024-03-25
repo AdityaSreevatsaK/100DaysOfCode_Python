@@ -40,3 +40,5 @@ List of projects in this repository:
 * [Day 25](Day25/Day25.py): India States Game.
   * [Challenge 1](Day25/Day25Challenge/Day25Challenge.ipynb): Great Squirrel Census Data (Pandas)
   * [Challenge 2](Day25/USStatesGame/Day25Challenge2.py): US States Game.
+* [Day 26](Day26/Day26.py): NATO Alphabet.
+  * [Challenge](Day26/Day26Challenge/Day26Challenge.py): List and Dictionary Comprehension.
