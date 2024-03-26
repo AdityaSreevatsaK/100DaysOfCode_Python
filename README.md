@@ -42,3 +42,4 @@ List of projects in this repository:
   * [Challenge 2](Day25/USStatesGame/Day25Challenge2.py): US States Game.
 * [Day 26](Day26/Day26.py): NATO Alphabet.
   * [Challenge](Day26/Day26Challenge/Day26Challenge.py): List and Dictionary Comprehension.
+* [Day 27](Day27/Day27.py): 
