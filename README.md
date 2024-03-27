@@ -42,4 +42,11 @@ List of projects in this repository:
   * [Challenge 2](Day25/USStatesGame/Day25Challenge2.py): US States Game.
 * [Day 26](Day26/Day26.py): NATO Alphabet.
   * [Challenge](Day26/Day26Challenge/Day26Challenge.py): List and Dictionary Comprehension.
-* [Day 27](Day27/Day27.py): 
+* [Day 27](Day27/Day27.py): Miles to Kilometres converter (Tkinter)
+  * [Challenge](Day27/Day27Challenges.py): Usage of Tkinter.
+* [Day 28](Day28/Day28.py): Building a Pomodoro App. (Tkinter)
+* [Day 29](Day29/Day29.py): Password Manager GUI App.
+* [Day 30](Day30/Day30.py): Improving Password Manager App - Exception Handling, etc.
+* [Day 31](Day31/Day31.py): Flashcard App.
+
+# Intermediate (+)
