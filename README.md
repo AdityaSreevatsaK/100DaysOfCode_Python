@@ -49,4 +49,4 @@ List of projects in this repository:
 * [Day 30](Day30/Day30.py): Improving Password Manager App - Exception Handling, etc.
 * [Day 31](Day31/Day31.py): Flashcard App.
 
-# Intermediate (+)
+## Intermediate Plus.
