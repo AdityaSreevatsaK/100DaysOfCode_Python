@@ -1,5 +1,4 @@
 import math
-import sys
 from tkinter import *
 
 FOREGROUND_COLOUR = "#40A2E3"
