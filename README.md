@@ -1,4 +1,4 @@
-# 100 Days of Code - Python
+# 100 Days of Code - Python.
 
 List of projects in this repository:
 
@@ -20,6 +20,7 @@ List of projects in this repository:
   * [Day 13](Day13/Day13_Debugging_LeapYear.py) - Leap Year.
   * [Day 13](Day13/Day13_Debugging_OddOrEven.py) - Odd Or Even.
 * [Day 14](Day14/Day14.py): Who has more followers?
+
 ## Intermediate.
 * [Day 15](Day15/Day15.py): Coffee Machine.
 * [Day 16](Day16/Day16.py): Coffee Machine - OOPs.
@@ -46,7 +47,78 @@ List of projects in this repository:
   * [Challenge](Day27/Day27Challenges.py): Usage of Tkinter.
 * [Day 28](Day28/Day28.py): Building a Pomodoro App. (Tkinter)
 * [Day 29](Day29/Day29.py): Password Manager GUI App.
-* [Day 30](Day30/Day30.py): Improving Password Manager App - Exception Handling, etc.
-* [Day 31](Day31/Day31.py): Flashcard App.
+* [Day 30](Day30/Day30.py): Improvised Password Manager App - Exception Handling, etc.
+* [Day 31](Day31/Day31.py): Flashcard App - Capstone.
 
 ## Intermediate Plus.
+* [Day 32](Day32/Day32.py): 
+* [Day 33](Day33/Day33.py): 
+* [Day 34](Day34/Day34.py): 
+* [Day 35](Day35/Day35.py):  
+* [Day 36](Day36/Day36.py): 
+* [Day 37](Day37/Day37.py): 
+* [Day 38](Day38/Day38.py): 
+* [Day 39](Day39/Day39.py): 
+* [Day 40](Day40/Day40.py): 
+* [Day 41](Day41/Day41.py): 
+* [Day 42](Day42/Day42.py): 
+* [Day 43](Day43/Day43.py): 
+* [Day 44](Day44/Day44.py): 
+* [Day 45](Day45/Day45.py): 
+* [Day 46](Day46/Day46.py): 
+* [Day 47](Day47/Day47.py): 
+* [Day 48](Day48/Day48.py): 
+* [Day 49](Day49/Day49.py): 
+* [Day 50](Day50/Day50.py): 
+* [Day 51](Day51/Day51.py): 
+* [Day 52](Day52/Day52.py): 
+* [Day 53](Day53/Day53.py): 
+* [Day 54](Day54/Day54.py): 
+* [Day 55](Day55/Day55.py): 
+* [Day 56](Day56/Day56.py): 
+* [Day 57](Day57/Day57.py): 
+* [Day 58](Day58/Day58.py): 
+
+## Advanced.
+* [Day 59](Day59/Day59.py): 
+* [Day 60](Day60/Day60.py): 
+* [Day 61](Day61/Day61.py): 
+* [Day 62](Day62/Day62.py): 
+* [Day 63](Day63/Day63.py): 
+* [Day 64](Day64/Day64.py): 
+* [Day 65](Day65/Day65.py): 
+* [Day 66](Day66/Day66.py): 
+* [Day 67](Day67/Day67.py): 
+* [Day 68](Day68/Day68.py): 
+* [Day 69](Day69/Day69.py): 
+* [Day 70](Day70/Day70.py): 
+* [Day 71](Day71/Day71.py): 
+* [Day 72](Day72/Day72.py): 
+* [Day 73](Day73/Day73.py): 
+* [Day 74](Day74/Day74.py): 
+* [Day 75](Day75/Day75.py): 
+* [Day 76](Day76/Day76.py): 
+* [Day 77](Day77/Day77.py): 
+* [Day 78](Day78/Day78.py): 
+* [Day 79](Day79/Day79.py): 
+* [Day 80](Day80/Day80.py): 
+* [Day 81](Day81/Day81.py): 
+* [Day 82](Day82/Day82.py): 
+* [Day 83](Day83/Day83.py): 
+* [Day 84](Day84/Day84.py): 
+* [Day 85](Day85/Day85.py): 
+* [Day 86](Day86/Day86.py): 
+* [Day 87](Day87/Day87.py): 
+* [Day 88](Day88/Day88.py): 
+* [Day 89](Day89/Day89.py): 
+* [Day 90](Day90/Day90.py): 
+* [Day 91](Day91/Day91.py): 
+* [Day 92](Day92/Day92.py): 
+* [Day 93](Day93/Day93.py): 
+* [Day 94](Day94/Day94.py): 
+* [Day 95](Day95/Day95.py): 
+* [Day 96](Day96/Day96.py): 
+* [Day 97](Day97/Day97.py): 
+* [Day 98](Day98/Day98.py): 
+* [Day 99](Day99/Day99.py): 
+* [Day 100](Day100/Day100.py):
