@@ -51,9 +51,10 @@ List of projects in this repository:
 * [Day 31](Day31/Day31.py): Flashcard App - Capstone.
 
 ## Intermediate Plus.
-* [Day 32](Day32/Day32.py): Automated Birthday Wisher. (Smptlib, datetime)
-  * [Challenge](Day32/Day32Challenges/Day32Challenge.py): Wednesday Motivations Quotes - Automated Email.
-* [Day 33](Day33/Day33.py): 
+* [Day 32](Day32/Day32.py): Automated Birthday Wisher. (Smptlib, DateTime)
+  * [Challenge](Day32/Day32Challenges/Day32Challenge.py): Wednesday Motivational Quotes - Automated Email.
+* [Day 33](Day33/Day33.py): International Space Station Overhead Notifier. (APIs, Smtplib, DateTime)
+  * [Challenge](Day33/Day33Challenge/Day33Challenge.py): Kanye Quotes!
 * [Day 34](Day34/Day34.py): 
 * [Day 35](Day35/Day35.py):  
 * [Day 36](Day36/Day36.py): 

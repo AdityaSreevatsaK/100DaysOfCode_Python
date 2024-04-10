@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Day32/birthdays.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day32/letter_templates" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day33/Day33Challenge/background.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Day33/Day33Challenge/kanye.png" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1252" />
   </component>
 </project>
