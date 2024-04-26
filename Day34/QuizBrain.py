@@ -1,4 +1,4 @@
-import html
+from html import unescape
 
 
 class QuizBrain:
@@ -10,22 +10,33 @@ class QuizBrain:
         self.current_question = None
 
     def still_has_questions(self):
+        """
+            Method to check if there are more questions remaining.
+        """
         return self.question_number < len(self.question_list)
 
-    def next_question(self):
+    def next_question(self) -> str | None:
+        """
+            Method to get the next question.
+            Returns question string when there are more questions. Else, returns None.
+        """
+        if not self.still_has_questions():
+            return None
+
         self.current_question = self.question_list[self.question_number]
         self.question_number += 1
-        question_text = html.unescape(self.current_question.text)
-        user_answer = input(f"Q.{self.question_number}: {question_text} (True/False): ")
-        self.check_answer(user_answer)
 
-    def check_answer(self, user_answer):
+        # Unescape function from the html package helps convert the named and numeric character references.
+        # in the string to the corresponding unicode characters.
+        return f"Q.{self.question_number}: {unescape(self.current_question.text)} (True/False):"
+
+    def check_answer(self, user_answer: str) -> bool:
+        """
+            Method to check and return if user has selected the right answer.
+        """
         correct_answer = self.current_question.answer
         if user_answer.lower() == correct_answer.lower():
             self.score += 1
-            print("You got it right! ;)")
+            return True
         else:
-            print("That's wrong. :(")
-
-        print(f"Your current score is: {self.score}/{self.question_number}")
-        print("\n")
+            return False
