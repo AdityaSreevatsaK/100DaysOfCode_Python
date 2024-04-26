@@ -55,7 +55,7 @@ List of projects in this repository:
   * [Challenge](Day32/Day32Challenges/Day32Challenge.py): Wednesday Motivational Quotes - Automated Email.
 * [Day 33](Day33/Day33.py): International Space Station Overhead Notifier. (APIs, Smtplib, DateTime)
   * [Challenge](Day33/Day33Challenge/Day33Challenge.py): Kanye Quotes!
-* [Day 34](Day34/Day34.py): 
+* [Day 34](Day34/Day34.py): Quizzler App!
 * [Day 35](Day35/Day35.py):  
 * [Day 36](Day36/Day36.py): 
 * [Day 37](Day37/Day37.py): 

@@ -50,6 +50,8 @@ class UserInterface:
         question_text = self.quiz_brain.next_question()
         if question_text is None:
             messagebox.showinfo(title="Completed quiz!", message=f"Your final score is {self.quiz_brain.score}/10!")
+            print("You've completed the quiz")
+            print(f"Your final score was: {self.quiz_brain.score}/10")
             self.window.after(1000, sys.exit(0))
         self.canvas.config(bg="white")
         self.canvas.itemconfig(self.question, text=question_text)
