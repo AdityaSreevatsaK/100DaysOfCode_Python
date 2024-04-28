@@ -56,7 +56,7 @@ List of projects in this repository:
 * [Day 33](Day33/Day33.py): International Space Station Overhead Notifier. (APIs, Smtplib, DateTime)
   * [Challenge](Day33/Day33Challenge/Day33Challenge.py): Kanye Quotes!
 * [Day 34](Day34/Day34.py): Quizzler App!
-* [Day 35](Day35/Day35.py):  
+* [Day 35](Day35/Day35.py):  Rain Alert Email.
 * [Day 36](Day36/Day36.py): 
 * [Day 37](Day37/Day37.py): 
 * [Day 38](Day38/Day38.py): 
