@@ -46,18 +46,18 @@ List of projects in this repository:
 * [Day 27](Day27/Day27.py): Miles to Kilometres converter (Tkinter)
   * [Challenge](Day27/Day27Challenges.py): Usage of Tkinter.
 * [Day 28](Day28/Day28.py): Building a Pomodoro App. (Tkinter)
-* [Day 29](Day29/Day29.py): Password Manager GUI App.
-* [Day 30](Day30/Day30.py): Improvised Password Manager App - Exception Handling, etc.
-* [Day 31](Day31/Day31.py): Flashcard App - Capstone.
+* [Day 29](Day29/Day29.py): Password Manager GUI App. (Tkinter)
+* [Day 30](Day30/Day30.py): Improvised Password Manager App - Exception Handling, etc. (Tkinter)
+* [Day 31](Day31/Day31.py): Flashcard App - Capstone. (Tkinter, Pandas)
 
 ## Intermediate Plus.
 * [Day 32](Day32/Day32.py): Automated Birthday Wisher. (Smptlib, DateTime)
   * [Challenge](Day32/Day32Challenges/Day32Challenge.py): Wednesday Motivational Quotes - Automated Email.
 * [Day 33](Day33/Day33.py): International Space Station Overhead Notifier. (APIs, Smtplib, DateTime)
   * [Challenge](Day33/Day33Challenge/Day33Challenge.py): Kanye Quotes!
-* [Day 34](Day34/Day34.py): Quizzler App!
-* [Day 35](Day35/Day35.py):  Rain Alert Email.
-* [Day 36](Day36/Day36.py): 
+* [Day 34](Day34/Day34.py): Quizzler App! (APIs, Tkinter)
+* [Day 35](Day35/Day35.py): Rain Alert Email. (Smtplib, APIs)
+* [Day 36](Day36/Day36.py): Stock Price Monitor. (APIs, Smtplib)
 * [Day 37](Day37/Day37.py): 
 * [Day 38](Day38/Day38.py): 
 * [Day 39](Day39/Day39.py): 
