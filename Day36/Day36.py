@@ -1,20 +1,21 @@
 import smtplib
 from datetime import datetime as dt, timedelta as td
-from sample_stock_price import demo
 
 import requests
 
-send_email = False
+from SampleStockPrice import demo
 
+send_email = False
 ZERO = 0
 ONE = 1
 TWO = 2
+appender = ""
+whitespace = " "
+tesla_stock_details = []
 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
-tesla_stock_details = []
-appender = ""
-whitespace = " "
+
 stock_price_api_url = "https://www.alphavantage.co/query"
 news_url = "https://newsapi.org/v2/everything"
 my_email = "ask@gmail.com"

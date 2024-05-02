@@ -57,8 +57,8 @@ List of projects in this repository:
   * [Challenge](Day33/Day33Challenge/Day33Challenge.py): Kanye Quotes!
 * [Day 34](Day34/Day34.py): Quizzler App! (APIs, Tkinter)
 * [Day 35](Day35/Day35.py): Rain Alert Email. (Smtplib, APIs)
-* [Day 36](Day36/Day36.py): Stock Price Monitor. (APIs, Smtplib)
-* [Day 37](Day37/Day37.py): 
+* [Day 36](Day36/Day36.py): Stock Price Monitor. (APIs, Datetime, Smtplib)
+* [Day 37](Day37/Day37.py): Habit Tracking Project. (APIs, Headers)
 * [Day 38](Day38/Day38.py): 
 * [Day 39](Day39/Day39.py): 
 * [Day 40](Day40/Day40.py): 
