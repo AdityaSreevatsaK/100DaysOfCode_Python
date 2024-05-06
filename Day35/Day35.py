@@ -3,7 +3,7 @@ import smtplib
 import requests
 
 my_email = "ask@gmail.com"
-my_password = "aaaabbbbccccdddd"
+my_password = "************"
 
 take_an_umbrella_email = ("Subject:It's going to rain today!\n\n"
                           "Hey, its going to be raining today. Take an umbrella with you. :)")
@@ -11,7 +11,8 @@ take_an_umbrella_email = ("Subject:It's going to rain today!\n\n"
 will_rain = False
 USER_LATITUDE = 12.971599
 USER_LONGITUDE = 77.594566
-API_KEY = "ay5d634fdfe568dr8u395f8f0p0e09d4o1"
+# Can be obtained here: https://openweathermap.org/api
+API_KEY = "************"
 weather_data_parameters = {
     "lat": USER_LATITUDE,
     "lon": USER_LONGITUDE,

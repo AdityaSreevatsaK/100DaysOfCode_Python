@@ -3,7 +3,7 @@ from datetime import datetime as dt
 import requests
 
 pixela_username = "ask"
-pixela_user_token = "abcdabcdabcdabcd"
+pixela_user_token = "************"
 graphs = "/graphs/"
 
 # Pixela user creation.
