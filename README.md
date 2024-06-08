@@ -59,8 +59,8 @@ List of projects in this repository:
 * [Day 35](Day35/Day35.py): Rain Alert Email. (Smtplib, APIs)
 * [Day 36](Day36/Day36.py): Stock Price Monitor. (APIs, Datetime, Smtplib)
 * [Day 37](Day37/Day37.py): Habit Tracking Project. (APIs, Headers)
-* [Day 38](Day38/Day38.py): 
-* [Day 39](Day39/Day39.py): 
+* [Day 38](Day38/Day38.py): Workout Tracker using Google Sheets (Requests, APIs, HTTPBasicAuth, DateTime)
+* [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1.
 * [Day 40](Day40/Day40.py): 
 * [Day 41](Day41/Day41.py): 
 * [Day 42](Day42/Day42.py): 
