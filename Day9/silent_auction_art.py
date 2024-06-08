@@ -1,4 +1,4 @@
-silent_auction_logo = '''
+silent_auction_logo = r'''
                          ___________
                         '\'        /
                           )_______(

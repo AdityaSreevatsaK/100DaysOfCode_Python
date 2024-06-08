@@ -8,6 +8,7 @@ from hangman_words import word_list
 with warnings.catch_warnings():
     warnings.simplefilter('ignore', SyntaxWarning)
     warnings.warn('bad', SyntaxWarning)
+
 print("Day 7 - 100 Days of Code.")
 print("Welcome to Hangman.")
 print(logo)

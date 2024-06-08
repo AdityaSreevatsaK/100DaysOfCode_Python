@@ -1,3 +1,4 @@
+import sys
 import warnings
 
 import coffee_machine_data
@@ -68,9 +69,9 @@ def change_calculation(cost_of_drink, amount_deposited, drink_choice):
     """
     change = round(amount_deposited - cost_of_drink, 2)
     if change == zero:
-        print(f"Enjoy your {drink_choice}. 🍵")
+        print(f"Enjoy your {drink_choice}.")
     else:
-        print(f"Enjoy your {drink_choice} 🍵. Change of ${change} returned.")
+        print(f"Enjoy your {drink_choice}. Change of ${change} returned.")
 
 
 def get_drink_details(drink_name):
@@ -115,9 +116,12 @@ while does_user_wish_to_continue:
     display_cost_of_drinks()
     user_choice = None
     while True:
+        print("To exit, please type in 'exit'.")
         print("Please enter 'report' to view coffee maker report.")
         user_choice = input(
             "Please enter which drink you would like. Options are:\n1. Espresso\n2. Latte\n3. Cappuccino\n").lower()
+        if user_choice == 'exit':
+            sys.exit(zero)
         if user_choice == 'report':
             get_coffee_maker_report()
         if user_choice in drink_choices:

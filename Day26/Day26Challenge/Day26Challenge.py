@@ -27,7 +27,7 @@ for key, value in number_of_occurrences.items():
 print("Challenge 2 - Dictionary Comprehension - Convert list of week's temperature to Celsius.")
 temperature_fahrenheit = {"Monday": 53.5, "Tuesday": 57.2, "Wednesday": 59, "Thursday": 57.2, "Friday": 69.8,
                           "Saturday": 71.6, "Sunday": 75.2}
-temperature_celsius = {day: (temperature - 32) / 1.8 for day, temperature in temperature_fahrenheit.items()}
+temperature_celsius = {day: round((temperature - 32) / 1.8) for day, temperature in temperature_fahrenheit.items()}
 print("Temperature for the week in Celsius.")
 for day, temperature in temperature_celsius.items():
     print(f"{day}: {temperature}")

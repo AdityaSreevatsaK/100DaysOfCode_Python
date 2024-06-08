@@ -23,8 +23,8 @@ def get_mouse_click_coordinates(x, y):
         The x and y values are printed each time the mouse is clicked.
     """
     global counter
-    stringValue = state_list[counter] + comma + str(x) + comma + str(y) + "\n"
-    print(stringValue, end="")
+    string_value = state_list[counter] + comma + str(x) + comma + str(y) + "\n"
+    print(string_value, end="")
     counter += 1
 
 

@@ -1,6 +1,6 @@
+import random
 import sys
 import warnings
-import random
 
 from blackjack_art import blackjack_logo
 
@@ -16,6 +16,7 @@ does_user_want_to_play = True
 is_user_winner = False
 is_dealer_winner = False
 twenty_one = 21
+
 
 def generate_random_card():
     """
@@ -117,13 +118,13 @@ def determine_winner(users_hand, dealers_hand):
     users_hand, user_hand_total = determine_total_and_alter_hand(users_hand)
     dealers_hand, dealer_hand_total = determine_total_and_alter_hand(dealers_hand)
     if user_hand_total > dealer_hand_total:
-        print("Your score is {user_hand_total} and the dealer's score is {dealer_hand_total}. You win! ;)")
+        print(f"Your score is {user_hand_total} and the dealer's score is {dealer_hand_total}. You win! ;)")
         sys.exit()
     elif user_hand_total < dealer_hand_total:
-        print("Your score is {user_hand_total} and the dealer's score is {dealer_hand_total}. You lose. :(")
+        print(f"Your score is {user_hand_total} and the dealer's score is {dealer_hand_total}. You lose. :(")
         sys.exit()
     else:
-        print("Your and the dealer have a score of {user_hand_total}. It's a draw.")
+        print(f"Your and the dealer have a score of {user_hand_total}. It's a draw.")
         sys.exit()
 
 

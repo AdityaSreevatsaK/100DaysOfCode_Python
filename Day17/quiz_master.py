@@ -25,9 +25,9 @@ class QuizMaster:
         correct_answer = self.question_list[self.question_number]
         if user_answer == correct_answer.answer.lower():
             self.trivia_score += one
-            print("That is correct! 💯")
+            print("That is correct!")
         else:
-            print("Oh no. That is incorrect. 😢")
+            print("Oh no. That is incorrect.")
         print(f"The correct answer is {correct_answer.text}")
 
     def display_next_question(self):

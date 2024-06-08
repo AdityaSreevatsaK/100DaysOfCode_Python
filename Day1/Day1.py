@@ -4,4 +4,4 @@ cityName = input("What's the name of the city you grew up in? ")
 petName = input("What's your pet's name? ")
 blankString = " "
 bandName = cityName + blankString + petName
-print(f"The name of your band is {bandName} 🎼🎻🎺🎷🎙️")
+print(f"The name of your band is {bandName}")

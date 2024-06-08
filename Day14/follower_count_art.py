@@ -1,4 +1,4 @@
-follower_count_logo = """
+follower_count_logo = r"""
     __  ___       __             
    / / / (_)___ _/ /_  ___  _____
   / /_/ / / __ `/ __ \/ _ \/ ___/

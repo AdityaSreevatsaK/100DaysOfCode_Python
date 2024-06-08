@@ -19,7 +19,7 @@ game_over = False
 graphics_turtle = Turtle()
 screen = Screen()
 screen.setup(width=600, height=600)
-screen.title("Snake Game!")
+screen.title("Incomplete Snake Game!")
 screen.bgcolor("darkblue")
 graphics_turtle.pensize(ten)
 graphics_turtle.pencolor("gold")

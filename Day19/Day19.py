@@ -130,15 +130,18 @@ while race_not_completed:
     racing_turtles()
 winner = get_winner()
 if user_bet == winner:
-    print("Yay! You have won the bet. 😁")
+    print("Yay! You have won the bet.")
 else:
-    print("Oh no! You lost the bet. 😢")
+    print("Oh no! You lost the bet.")
 print(winner, "won the race!")
 
 fileName = "Turtle Race"
-turtle.getscreen().getcanvas().postscript(file=fileName + '.eps')
-img = Image.open(fileName + '.eps')
-img.save(fileName + '.jpg')
-img.close()
-delete_file(r"Turtle Race.eps")
+try:
+    turtle.getscreen().getcanvas().postscript(file=fileName + '.eps')
+    img = Image.open(fileName + '.eps')
+    img.save(fileName + '.jpg')
+    img.close()
+    delete_file(r"Turtle Race.eps")
+except OSError as ose:
+    print("Ghostscripts not installed on device.", ose)
 screen.exitonclick()

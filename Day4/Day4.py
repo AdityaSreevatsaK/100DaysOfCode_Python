@@ -35,8 +35,8 @@ two = 2
 userChoice = int(input("What do you choose? Type 0 : Rock, 1 : Paper, 2 : Scissors.\n"))
 yourChoiceString = "Your choice:\n"
 computersChoiceString = "Computer choice:\n"
-youLoseString = "You lose. 😭"
-youWinString = "You win! 😉"
+youLoseString = "You lose. :("
+youWinString = "You win! :)"
 
 computerChoice = random.randint(zero, two)
 rockPaperScissor = [rock, paper, scissors]
@@ -55,4 +55,4 @@ else:
     elif userChoice > computerChoice:
         print(youWinString)
     elif computerChoice == userChoice:
-        print("It's a draw. 🫤")
+        print("It's a draw. -_-")
