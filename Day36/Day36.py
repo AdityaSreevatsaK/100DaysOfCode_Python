@@ -15,13 +15,13 @@ tesla_stock_details = []
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-stock_price_api_url = "https://www.alphavantage.co/query"
-news_url = "https://newsapi.org/v2/everything"
 my_email = "ask@gmail.com"
 my_email_password = "************"
 # Can be obtained here: https://www.alphavantage.co/support/#api-key
+stock_price_api_url = "https://www.alphavantage.co/query"
 stock_price_api_key = "************"
 # Can be obtained here: https://newsapi.org/
+news_url = "https://newsapi.org/v2/everything"
 news_api_key = "************"
 
 stock_price_api_parameters = {
