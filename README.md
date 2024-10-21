@@ -52,20 +52,20 @@ List of projects in this repository:
 * [Day 28](Day28/Day28.py): Building a Pomodoro App. (Tkinter)
 * [Day 29](Day29/Day29.py): Password Manager GUI App. (Tkinter)
 * [Day 30](Day30/Day30.py): Improvised Password Manager App - Exception Handling, etc. (Tkinter)
-* [Day 31](Day31/Day31.py): Flashcard App - Capstone. (Tkinter, Pandas)
+* [Day 31](Day31/Day31.py): Flashcard App - Capstone. (Tkinter and Pandas)
 
 ## Intermediate Plus.
-* [Day 32](Day32/Day32.py): Automated Birthday Wisher. (Smptlib, DateTime)
+* [Day 32](Day32/Day32.py): Automated Birthday Wisher. (Smptlib and DateTime)
   * [Challenge](Day32/Day32Challenges/Day32Challenge.py): Wednesday Motivational Quotes - Automated Email.
-* [Day 33](Day33/Day33.py): International Space Station Overhead Notifier. (APIs, Smtplib, DateTime)
+* [Day 33](Day33/Day33.py): International Space Station Overhead Notifier. (APIs, Smtplib and DateTime)
   * [Challenge](Day33/Day33Challenge/Day33Challenge.py): Kanye Quotes!
-* [Day 34](Day34/Day34.py): Quizzler App! (APIs, Tkinter)
-* [Day 35](Day35/Day35.py): Rain Alert Email. (Smtplib, APIs)
-* [Day 36](Day36/Day36.py): Stock Price Monitor. (APIs, Datetime, Smtplib)
-* [Day 37](Day37/Day37.py): Habit Tracking Project. (APIs, Headers)
-* [Day 38](Day38/Day38.py): Workout Tracker using Google Sheets (Requests, APIs, HTTPBasicAuth, DateTime)
-* [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1.
-* [Day 40](Day40/Day40.py): Flight Club - Capstone Part 2.
+* [Day 34](Day34/Day34.py): Quizzler App! (APIs and Tkinter)
+* [Day 35](Day35/Day35.py): Rain Alert Email. (Smtplib and APIs)
+* [Day 36](Day36/Day36.py): Stock Price Monitor. (APIs, Datetime and Smtplib)
+* [Day 37](Day37/Day37.py): Habit Tracking Project. (APIs and Headers)
+* [Day 38](Day38/Day38.py): Workout Tracker using Google Sheets (Requests, APIs, HTTPBasicAuth and DateTime)
+* [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1. (Requests, APIs, HTTPBasicAuth and DateTime)
+* [Day 40](Day40/Day40.py): Flight Club - Capstone Part 2. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 41](Day41/Day41.py): 
 * [Day 42](Day42/Day42.py): 
 * [Day 43](Day43/Day43.py): 
