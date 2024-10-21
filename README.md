@@ -1,5 +1,9 @@
 # 100 Days of Code - Python.
 
+A comprehensive collection of Python projects developed over 100 days, showcasing skills from basic programming to 
+advanced concepts. This repo includes beginner to advanced tasks, focusing on data science, web development, automation,
+and game development, utilising various libraries and tools.
+
 List of projects in this repository:
 
 ## Beginner.
@@ -61,7 +65,7 @@ List of projects in this repository:
 * [Day 37](Day37/Day37.py): Habit Tracking Project. (APIs, Headers)
 * [Day 38](Day38/Day38.py): Workout Tracker using Google Sheets (Requests, APIs, HTTPBasicAuth, DateTime)
 * [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1.
-* [Day 40](Day40/Day40.py): 
+* [Day 40](Day40/Day40.py): Flight Club - Capstone Part 2.
 * [Day 41](Day41/Day41.py): 
 * [Day 42](Day42/Day42.py): 
 * [Day 43](Day43/Day43.py): 
