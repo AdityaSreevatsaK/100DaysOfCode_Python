@@ -1,12 +1,12 @@
-# 100 Days of Code - Python.
+# <p align="center" style="font-family: 'Palatino Linotype'; font-weight: bold">100 Days of Code - Python.</p>
 
-A comprehensive collection of Python projects developed over 100 days, showcasing skills from basic programming to 
+<p>A comprehensive collection of Python projects developed over 100 days, showcasing skills from basic programming to 
 advanced concepts. This repo includes beginner to advanced tasks, focusing on data science, web development, automation,
-and game development, utilising various libraries and tools.
+and game development, utilising various libraries and tools.</p>
 
-List of projects in this repository:
+<p> _List of projects in this repository:_</p>
 
-## Beginner.
+## <p style="font-family: 'Bradley Hand ITC';">Beginner.</p>
 * [Day 1](Day1/Day1.py): Band Name Generator. (Variables and data)
 * [Day 2](Day2/Day2.py): Tip Calculator. (Data types and manipulation of strings)
 * [Day 3](Day3/Day3.py): Treasure Island. (Control flow and logical operators)
@@ -25,7 +25,7 @@ List of projects in this repository:
   * [Day 13](Day13/Day13_Debugging_OddOrEven.py) - Odd Or Even.
 * [Day 14](Day14/Day14.py): Who has more followers?
 
-## Intermediate.
+## <p style="font-family: 'Bradley Hand ITC';">Intermediate.</p>
 * [Day 15](Day15/Day15.py): Coffee Machine.
 * [Day 16](Day16/Day16.py): Coffee Machine - OOPs.
 * [Day 17](Day17/Day17.py): Trivia Quiz.
@@ -54,7 +54,7 @@ List of projects in this repository:
 * [Day 30](Day30/Day30.py): Improvised Password Manager App - Exception Handling, etc. (Tkinter)
 * [Day 31](Day31/Day31.py): Flashcard App - Capstone. (Tkinter and Pandas)
 
-## Intermediate Plus.
+## <p style="font-family: 'Bradley Hand ITC';">Intermediate Plus.</p>
 * [Day 32](Day32/Day32.py): Automated Birthday Wisher. (Smptlib and DateTime)
   * [Challenge](Day32/Day32Challenges/Day32Challenge.py): Wednesday Motivational Quotes - Automated Email.
 * [Day 33](Day33/Day33.py): International Space Station Overhead Notifier. (APIs, Smtplib and DateTime)
@@ -66,7 +66,7 @@ List of projects in this repository:
 * [Day 38](Day38/Day38.py): Workout Tracker using Google Sheets (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 40](Day40/Day40.py): Flight Club - Capstone Part 2. (Requests, APIs, HTTPBasicAuth and DateTime)
-* [Day 41](Day41/Day41.py): 
+* [Day 41](Day41/Day41.py): Top 10 Movies of All Time - Website. (HTML)
 * [Day 42](Day42/Day42.py): 
 * [Day 43](Day43/Day43.py): 
 * [Day 44](Day44/Day44.py): 
@@ -85,7 +85,7 @@ List of projects in this repository:
 * [Day 57](Day57/Day57.py): 
 * [Day 58](Day58/Day58.py): 
 
-## Advanced.
+## <p style="font-family: 'Bradley Hand ITC';">Advanced.</p>
 * [Day 59](Day59/Day59.py): 
 * [Day 60](Day60/Day60.py): 
 * [Day 61](Day61/Day61.py): 
