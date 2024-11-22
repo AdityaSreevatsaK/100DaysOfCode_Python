@@ -66,8 +66,8 @@ and game development, utilising various libraries and tools.</p>
 * [Day 38](Day38/Day38.py): Workout Tracker using Google Sheets (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 40](Day40/Day40.py): Flight Club - Capstone Part 2. (Requests, APIs, HTTPBasicAuth and DateTime)
-* [Day 41](Day41/Day41.py): Top 10 Movies of All Time - Website. (HTML)
-* [Day 42](Day42/Day42.py): Birthday Party Invitation - Website (HTML)
+* [Day 41](Day41/Day41.html): Top 10 Movies of All Time - Website. (HTML)
+* [Day 42](Day42/Day42.html): Birthday Party Invitation - Website (HTML)
   * [Challenge](Day42/Day42Challenge.html): Top 10 Most Interesting Websites. (HTML)
 * [Day 43](Day43/Day43.py): 
 * [Day 44](Day44/Day44.py): 
