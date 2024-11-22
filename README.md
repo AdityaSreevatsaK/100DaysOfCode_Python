@@ -4,7 +4,7 @@
 advanced concepts. This repo includes beginner to advanced tasks, focusing on data science, web development, automation,
 and game development, utilising various libraries and tools.</p>
 
-<p> _List of projects in this repository:_</p>
+<p style="font-style: italic">List of projects in this repository:</p>
 
 ## <p style="font-family: 'Bradley Hand ITC';">Beginner.</p>
 * [Day 1](Day1/Day1.py): Band Name Generator. (Variables and data)
@@ -35,7 +35,7 @@ and game development, utilising various libraries and tools.</p>
   * [Challenge 3](Day18/Day18Challenges.py): Draw shapes - Triangle - Decagon.
   * [Challenge 4](Day18/Day18Challenges.py): Draw a Spirograph.
 * [Day 19](Day19/Day19.py): Turtle Race. (Instances, states and higher order functions)
-  * [Challenge 1](Day19/Day19Challenges.py): Etch-A-Sketch.
+  * [Challenge](Day19/Day19Challenge.py): Etch-A-Sketch.
 * [Day 20](Day20/Day20.py): Snake Game - Part 1.
 * [Day 21](Day21/Day21.py): Snake Game - Complete.
 * [Day 22](Day22/Day22.py): Pong: The Famous Arcade Game.
@@ -67,7 +67,8 @@ and game development, utilising various libraries and tools.</p>
 * [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 40](Day40/Day40.py): Flight Club - Capstone Part 2. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 41](Day41/Day41.py): Top 10 Movies of All Time - Website. (HTML)
-* [Day 42](Day42/Day42.py): 
+* [Day 42](Day42/Day42.py): Birthday Party Invitation - Website (HTML)
+  * [Challenge](Day42/Day42Challenge.html): Top 10 Most Interesting Websites. (HTML)
 * [Day 43](Day43/Day43.py): 
 * [Day 44](Day44/Day44.py): 
 * [Day 45](Day45/Day45.py): 
