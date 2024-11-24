@@ -1,0 +1,38 @@
+html {
+    font-family: 'Palatino Linotype', serif;
+}
+
+body {
+    display: grid; 
+    place-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: black;
+}
+
+.cat_image {
+    width: 40vh;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.main_motivational_text {
+    color: yellow;
+    font-family: 'Cormorant Garamond';
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.secondary_motivational_text {
+    color: white;
+    font-family: 'Poiret';
+    font-size: 25px;
+}
+
+body { 
+    display: grid; 
+    place-items: center; 
+    height: 100vh; 
+    margin: 0; 
+} 
