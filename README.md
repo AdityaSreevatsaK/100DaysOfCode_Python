@@ -70,7 +70,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 42](Day42/Day42.html): Birthday Party Invitation - Website. (HTML)
   * [Challenge](Day42/Day42Challenge.html): Top 10 Most Interesting Websites. (HTML)
 * [Day 43](Day43/Day43.html): Learn Spanish - Website. {Linking HTML and CSS} (HTML and CSS) 
-* [Day 44](Day44/Day44.py): Motivational Meme - Website. (HTML and CSS)
+* [Day 44](Day44/Day44.html): Motivational Meme - Website. (HTML and CSS)
 * [Day 45](Day45/Day45.py): 
 * [Day 46](Day46/Day46.py): 
 * [Day 47](Day47/Day47.py): 
