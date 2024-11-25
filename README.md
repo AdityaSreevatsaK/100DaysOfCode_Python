@@ -67,10 +67,10 @@ and game development, utilising various libraries and tools.</p>
 * [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 40](Day40/Day40.py): Flight Club - Capstone Part 2. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 41](Day41/Day41.html): Top 10 Movies of All Time - Website. (HTML)
-* [Day 42](Day42/Day42.html): Birthday Party Invitation - Website (HTML)
+* [Day 42](Day42/Day42.html): Birthday Party Invitation - Website. (HTML)
   * [Challenge](Day42/Day42Challenge.html): Top 10 Most Interesting Websites. (HTML)
-* [Day 43](Day43/Day43.html): Learn Spanish - Website {Linking HTML and CSS} (HTML & CSS) 
-* [Day 44](Day44/Day44.py): 
+* [Day 43](Day43/Day43.html): Learn Spanish - Website. {Linking HTML and CSS} (HTML and CSS) 
+* [Day 44](Day44/Day44.py): Motivational Meme - Website. (HTML and CSS)
 * [Day 45](Day45/Day45.py): 
 * [Day 46](Day46/Day46.py): 
 * [Day 47](Day47/Day47.py): 
