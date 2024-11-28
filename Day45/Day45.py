@@ -10,9 +10,10 @@ top_movies = []
 h3_tags = soup.find_all(name='h3', class_='title')
 movies = [movie.getText() for movie in h3_tags][::-1]
 
-with open('Top 100 Greatest Movies of All Time.txt', mode='w') as movies_file:
+with open('Top 100 Greatest Movies of All Time.txt', mode='w', encoding='utf-8') as movies_file:
     for item in movies:
         try:
             movies_file.write(item + '\n')
         except UnicodeEncodeError as uee:
+            print(f"Error encountered at item {item}")
             pass
