@@ -6,7 +6,7 @@ and game development, utilising various libraries and tools.</p>
 
 <p style="font-style: italic">List of projects in this repository:</p>
 
-## <p style="font-family: 'Bradley Hand ITC';">Beginner.</p>
+## Beginner.
 * [Day 1](Day1/Day1.py): Band Name Generator. (Variables and data)
 * [Day 2](Day2/Day2.py): Tip Calculator. (Data types and manipulation of strings)
 * [Day 3](Day3/Day3.py): Treasure Island. (Control flow and logical operators)
@@ -25,7 +25,7 @@ and game development, utilising various libraries and tools.</p>
   * [Day 13](Day13/Day13_Debugging_OddOrEven.py) - Odd Or Even.
 * [Day 14](Day14/Day14.py): Who has more followers?
 
-## <p style="font-family: 'Bradley Hand ITC';">Intermediate.</p>
+## Intermediate.
 * [Day 15](Day15/Day15.py): Coffee Machine.
 * [Day 16](Day16/Day16.py): Coffee Machine - OOPs.
 * [Day 17](Day17/Day17.py): Trivia Quiz.
@@ -54,11 +54,11 @@ and game development, utilising various libraries and tools.</p>
 * [Day 30](Day30/Day30.py): Improvised Password Manager App - Exception Handling, etc. (Tkinter)
 * [Day 31](Day31/Day31.py): Flashcard App - Capstone. (Tkinter and Pandas)
 
-## <p style="font-family: 'Bradley Hand ITC';">Intermediate Plus.</p>
+## Intermediate Plus.
 * [Day 32](Day32/Day32.py): Automated Birthday Wisher. (Smptlib and DateTime)
   * [Challenge](Day32/Day32Challenges/Day32Challenge.py): Wednesday Motivational Quotes - Automated Email.
 * [Day 33](Day33/Day33.py): International Space Station Overhead Notifier. (APIs, Smtplib and DateTime)
-  * [Challenge](Day33/Day33Challenge/Day33Challenge.py): Kanye Quotes!
+  * [Challenge](Day33/Day33Challenge/Day33Challenge.py): Kanye Quotes! (Tkinter and Requests)
 * [Day 34](Day34/Day34.py): Quizzler App! (APIs and Tkinter)
 * [Day 35](Day35/Day35.py): Rain Alert Email. (Smtplib and APIs)
 * [Day 36](Day36/Day36.py): Stock Price Monitor. (APIs, Datetime and Smtplib)
@@ -71,7 +71,8 @@ and game development, utilising various libraries and tools.</p>
   * [Challenge](Day42/Day42Challenge.html): Top 10 Most Interesting Websites. (HTML)
 * [Day 43](Day43/Day43.html): Learn Spanish - Website. {Linking HTML and CSS} (HTML and CSS) 
 * [Day 44](Day44/Day44.html): Motivational Meme - Website. (HTML and CSS)
-* [Day 45](Day45/Day45.py): 
+* [Day 45](Day45/Day45.py): Top 100 Greatest Movies of All Time. (Beautiful Soup, Web Scraping and Requests)
+  * [Challenge](Day45/Day45_Challenge.py): Top tech article of the day. (Beautiful Soup, Web Scraping, Requests and Pandas)
 * [Day 46](Day46/Day46.py): 
 * [Day 47](Day47/Day47.py): 
 * [Day 48](Day48/Day48.py): 
@@ -86,7 +87,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 57](Day57/Day57.py): 
 * [Day 58](Day58/Day58.py): 
 
-## <p style="font-family: 'Bradley Hand ITC';">Advanced.</p>
+## Advanced.
 * [Day 59](Day59/Day59.py): 
 * [Day 60](Day60/Day60.py): 
 * [Day 61](Day61/Day61.py): 
