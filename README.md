@@ -73,7 +73,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 44](Day44/Day44.html): Motivational Meme - Website. (HTML and CSS)
 * [Day 45](Day45/Day45.py): Top 100 Greatest Movies of All Time. (Beautiful Soup, Web Scraping and Requests)
   * [Challenge](Day45/Day45_Challenge.py): Top tech article of the day. (Beautiful Soup, Web Scraping, Requests and Pandas)
-* [Day 46](Day46/Day46.py): 
+* [Day 46](Day46/Day46.py): Musical Time Machine. (Requests, Beautiful Soup, Web Scraping, Datetime and Spotipy API)
 * [Day 47](Day47/Day47.py): 
 * [Day 48](Day48/Day48.py): 
 * [Day 49](Day49/Day49.py): 
