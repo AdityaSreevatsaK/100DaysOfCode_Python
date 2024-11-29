@@ -15,5 +15,5 @@ with open('Top 100 Greatest Movies of All Time.txt', mode='w', encoding='utf-8')
         try:
             movies_file.write(item + '\n')
         except UnicodeEncodeError as uee:
-            print(f"Error encountered at item {item}")
-            pass
+            print(f'Error encountered at item {item}')
+print('Data written into file successfully.')
