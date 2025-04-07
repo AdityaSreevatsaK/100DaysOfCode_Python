@@ -74,7 +74,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 45](Day45/Day45.py): Top 100 Greatest Movies of All Time. (Beautiful Soup, Web Scraping and Requests)
   * [Challenge](Day45/Day45_Challenge.py): Top tech article of the day. (Beautiful Soup, Web Scraping, Requests and Pandas)
 * [Day 46](Day46/Day46.py): Musical Time Machine. (Requests, Beautiful Soup, Web Scraping, Datetime and Spotipy API)
-* [Day 47](Day47/Day47.py): 
+* [Day 47](Day47/Day47.py): Amazon Price Tracker. (Requests, Beautiful Soup, Web Scraping OS, DotEnv and Smtplib)
 * [Day 48](Day48/Day48.py): 
 * [Day 49](Day49/Day49.py): 
 * [Day 50](Day50/Day50.py): 
