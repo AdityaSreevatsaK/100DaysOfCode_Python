@@ -37,6 +37,8 @@ news_api_parameters = {
     "apiKey": news_api_key
 }
 
+print("Day 36 - 100 Days of Code.")
+print("Welcome to Stock Price Monitor.")
 current_day = dt.now().strftime("%A")
 if current_day == "Monday":
     yesterday_offset_value = TWO

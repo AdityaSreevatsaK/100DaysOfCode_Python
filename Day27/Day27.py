@@ -1,5 +1,8 @@
 from tkinter import *
 
+print("Day 27 - 100 Days of Code.")
+print("Welcome to Miles to Kilometres converter.")
+
 
 def miles_to_km():
     miles = float(miles_input.get())

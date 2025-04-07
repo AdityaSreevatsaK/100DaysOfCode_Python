@@ -9,6 +9,9 @@ sheet_data = data_manager.get_destination_data()
 
 start_city = 'ABC'
 
+print("Day 40 - 100 Days of Code.")
+print("Welcome to Flight Club.")
+
 if sheet_data[0]['iataCode'] == '':
     city_names = [row['city'] for row in sheet_data]
     data_manager.city_codes = FlightSearch.get_destination_code(city_names)

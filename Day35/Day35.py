@@ -21,6 +21,8 @@ weather_data_parameters = {
     "cnt": 4
 }
 
+print("Day 35 - 100 Days of Code.")
+print("Welcome to Rain Alert Email.")
 weather_data = requests.get("https://api.openweathermap.org/data/2.5/forecast", params=weather_data_parameters)
 weather_data.raise_for_status()
 weather_data = weather_data.json()["list"]

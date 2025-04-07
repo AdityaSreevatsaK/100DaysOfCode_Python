@@ -18,7 +18,7 @@ HUNDRED = 100
 count_timer = 5
 WORK_ITERATIONS = ZERO
 COUNTER = ZERO
-TIMER = None
+TIMER = ''
 
 print("Day 28 - 100 Days of Code.")
 print("Welcome to Pomodoro App.")

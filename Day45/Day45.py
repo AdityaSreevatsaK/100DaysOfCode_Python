@@ -2,6 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 
 ehm_url = 'https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/'
+
+print("Day 45 - 100 Days of Code.")
+print("Welcome to Top 100 Greatest Movies of All Time.")
+
 top_movies_webpage_response = requests.get(ehm_url)
 top_movies_webpage_contents = top_movies_webpage_response.text
 

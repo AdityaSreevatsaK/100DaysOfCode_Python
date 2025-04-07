@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 yc_response = requests.get('https://news.ycombinator.com/news')
 yc_webpage = yc_response.text
 
+print("Day 45 - 100 Days of Code.")
+print("Welcome to Top tech article of the day.")
+
 soup = BeautifulSoup(yc_webpage, features='html.parser')
 news_title_span_tags = soup.find_all(name='span', class_='titleline')
 news_title = []

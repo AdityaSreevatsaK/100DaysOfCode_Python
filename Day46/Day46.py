@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 from IPython.lib.pretty import pprint
 from spotipy.oauth2 import SpotifyOAuth
 
-spotify_client_id = 'aaaabbbbccccdddd'
-spotify_client_secret = 'aaaabbbbccccdddd'
+spotify_client_id = '************'
+spotify_client_secret = '************'
 
 date_to_fetch_top_songs = 0
 date_incorrectly_formatted = True

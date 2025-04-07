@@ -4,7 +4,7 @@ from FlightData import FlightData
 
 # Can be obtained here: https://tequila.kiwi.com/portal/login
 tequila_endpoint = 'https://tequila-api.kiwi.com'
-tequila_api_key = 'abcdabcdabcdabcd'
+tequila_api_key = '************'
 ZERO = 0
 ONE = 1
 

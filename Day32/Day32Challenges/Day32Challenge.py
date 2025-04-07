@@ -4,7 +4,7 @@ from random import choice
 
 list_of_motivational_quotes = []
 my_email = "ask@gmail.com"
-my_password = "aaaabbbbccccdddd"
+my_password = "************"
 TODAY = dt.datetime.now().weekday()
 
 print("Day 32 Challenge - 100 Days of Code.")

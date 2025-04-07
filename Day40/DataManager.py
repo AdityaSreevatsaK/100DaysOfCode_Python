@@ -1,8 +1,8 @@
 import requests
 
 # Can be obtained here: https://sheety.co/
-sheety_prices_endpoint = "https://api.sheety.co/" + "abcdabcd" + "/flightDeals/prices/"
-sheety_users_endpoint = "https://api.sheety.co/" + "abcdabcd" + "/flightDeals/users/"
+sheety_prices_endpoint = "https://api.sheety.co/" + "************" + "/flightDeals/prices/"
+sheety_users_endpoint = "https://api.sheety.co/" + "************" + "/flightDeals/users/"
 
 
 class DataManager:

@@ -10,6 +10,9 @@ notification_manager = NotificationManager()
 
 start_city = "ABC"
 
+print("Day 39 - 100 Days of Code.")
+print("Welcome to Flight Deal Finder.")
+
 if sheet_data[0]["code"] == "":
     for row in sheet_data:
         row["code"] = FlightSearch.get_destination_code(row["city"])

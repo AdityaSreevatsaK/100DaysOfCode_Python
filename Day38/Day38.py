@@ -4,8 +4,8 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # Can be obtained here: https://www.nutritionix.com/business/api
-nutritionix_api_key = "abcdabcdabcdabcd"
-application_id = "abcdabcdabcdabcd"
+nutritionix_api_key = "************"
+application_id = "************"
 nutritionix_exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 nutritionix_request_headers = {
     "x-app-id": application_id,
@@ -14,7 +14,7 @@ nutritionix_request_headers = {
 
 # Can be obtained here: https://sheety.co/
 sheety_post_endpoint = "https://api.sheety.co/URL/myWorkouts/workouts"
-sheety_authentication = HTTPBasicAuth('abcdabcdabcdabcd', 'abcdabcdabcdabcd')
+sheety_authentication = HTTPBasicAuth('************', '************')
 sheet_name = "workout"
 headers = {'Content-Type': 'application/json'}
 
@@ -22,6 +22,9 @@ ZERO = 0
 weight = ZERO
 height = ZERO
 age = ZERO
+
+print("Day 38 - 100 Days of Code.")
+print("Welcome to  Workout Tracker using Google Sheets.")
 
 try:
     weight = float(input("Enter your weight in kilograms: "))

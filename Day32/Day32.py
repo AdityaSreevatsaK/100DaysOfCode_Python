@@ -5,7 +5,7 @@ from random import randint
 import pandas as pd
 
 my_email = "ask@gmail.com"
-my_password = "aaaabbbbccccdddd"
+my_password = "************"
 EMPTY_STRING = ""
 randomised_email = EMPTY_STRING
 recipient_name = EMPTY_STRING

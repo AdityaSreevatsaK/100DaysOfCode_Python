@@ -46,10 +46,10 @@ def save_image():
     Description:
         Method to save the image after game is complete.
     """
-    fileName = "Indian States Game"
-    graphics_turtle.getscreen().getcanvas().postscript(file=fileName + '.eps')
-    img = Image.open(fileName + '.eps')
-    img.save(fileName + '.jpg')
+    file_name = "Indian States Game"
+    graphics_turtle.getscreen().getcanvas().postscript(file=file_name + '.eps')
+    img = Image.open(file_name + '.eps')
+    img.save(file_name + '.jpg')
     img.close()
     delete_file(r"Indian States Game.eps")
 

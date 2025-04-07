@@ -14,6 +14,9 @@ def get_quote():
     canvas.itemconfig(quote_text, text=kanye_quote)
 
 
+print("Day 33 - 100 Days of Code.")
+print("Welcome to Kanye Quotes!.")
+
 window = Tk()
 window.title("Kanye Says...")
 window.config(padx=50, pady=50)

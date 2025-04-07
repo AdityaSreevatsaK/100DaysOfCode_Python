@@ -5,6 +5,9 @@ screen = Screen()
 zero = 0
 ten = 10
 
+print("Day 19 - 100 Days of Code.")
+print("Welcome to Etch-A-Sketch.")
+
 
 def penup_home_pendown():
     """

@@ -18,7 +18,8 @@ header_dict = {
     # Get this from https://httpbin.org/headers. Exclude host and X-Amzn-Trace-id.
 }
 
-print("Day 47 - Amazon Price Tracker.")
+print("Day 47 - 100 Days of Code.")
+print("Welcome to Amazon Price Tracker.")
 response = requests.get(apple_macbook_amazon_url, headers=header_dict)
 response.raise_for_status()
 static_page_content = response.text

@@ -1,7 +1,7 @@
 import smtplib
 
 my_email = "ask@gmail.com"
-my_password = "aaaabbbbccccdddd"
+my_password = "************"
 
 
 def send_email(emails, message, google_flight_link):

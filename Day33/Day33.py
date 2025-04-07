@@ -4,7 +4,7 @@ from datetime import datetime
 import requests
 
 my_email = "ask@gmail.com"
-my_password = "aaaabbbbccccdddd"
+my_password = "************"
 
 ZERO = 0
 ONE = 1

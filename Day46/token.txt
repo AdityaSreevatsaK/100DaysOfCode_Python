@@ -1,8 +1,8 @@
 {
-    "access_token": "aaaabbbbccccdddd",
+    "access_token": "************",
     "token_type": "Bearer",
     "expires_in": 3600,
-    "refresh_token": "aaaabbbbccccdddd",
+    "refresh_token": "************",
     "scope": "playlist-modify-private",
     "expires_at": 0000000000
 }

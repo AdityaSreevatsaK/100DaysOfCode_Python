@@ -1,9 +1,9 @@
 from twilio.rest import Client
 
-TWILIO_SID = "abcdabcdabcdabcd"
-TWILIO_AUTH_TOKEN = "abcdabcdabcdabcd"
-TWILIO_VIRTUAL_NUMBER = "abcdabcdabcdabcd"
-TWILIO_VERIFIED_NUMBER = "abcdabcdabcdabcd"
+TWILIO_SID = "************"
+TWILIO_AUTH_TOKEN = "************"
+TWILIO_VIRTUAL_NUMBER = "************"
+TWILIO_VERIFIED_NUMBER = "************"
 
 
 class NotificationManager:

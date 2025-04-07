@@ -3,7 +3,7 @@ from datetime import datetime as dt
 import requests
 
 pixela_username = "ask"
-pixela_user_token = "abcdabcdabcdabcd"
+pixela_user_token = "************"
 graph_id = "cycling"
 
 pixela_post_pixel_endpoint = "https://pixe.la/v1/users/" + pixela_username + "/graphs/" + graph_id
@@ -17,6 +17,9 @@ post_pixel_configuration = {
     "date": current_date,
     "quantity": input("How many kilometres did you cycle today?\n")
 }
+
+print("Day 37 - 100 Days of Code.")
+print("Welcome to Habit Tracking Project.")
 
 while True:
     graph_creation_response = requests.post(url=pixela_post_pixel_endpoint, json=post_pixel_configuration,

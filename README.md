@@ -47,7 +47,7 @@ and game development, utilising various libraries and tools.</p>
   * [Challenge 2](Day25/USStatesGame/Day25Challenge2.py): US States Game.
 * [Day 26](Day26/Day26.py): NATO Alphabet.
   * [Challenge](Day26/Day26Challenge/Day26Challenge.py): List and Dictionary Comprehension.
-* [Day 27](Day27/Day27.py): Miles to Kilometres converter (Tkinter)
+* [Day 27](Day27/Day27.py): Miles to Kilometres converter. (Tkinter)
   * [Challenge](Day27/Day27Challenges.py): Usage of Tkinter.
 * [Day 28](Day28/Day28.py): Building a Pomodoro App. (Tkinter)
 * [Day 29](Day29/Day29.py): Password Manager GUI App. (Tkinter)
@@ -63,7 +63,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 35](Day35/Day35.py): Rain Alert Email. (Smtplib and APIs)
 * [Day 36](Day36/Day36.py): Stock Price Monitor. (APIs, Datetime and Smtplib)
 * [Day 37](Day37/Day37.py): Habit Tracking Project. (APIs and Headers)
-* [Day 38](Day38/Day38.py): Workout Tracker using Google Sheets (Requests, APIs, HTTPBasicAuth and DateTime)
+* [Day 38](Day38/Day38.py): Workout Tracker using Google Sheets. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 39](Day39/Day39.py): Flight Deal Finder - Capstone Part 1. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 40](Day40/Day40.py): Flight Club - Capstone Part 2. (Requests, APIs, HTTPBasicAuth and DateTime)
 * [Day 41](Day41/Day41.html): Top 10 Movies of All Time - Website. (HTML)
