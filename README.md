@@ -1,4 +1,4 @@
-# <p align="center" style="font-family: 'Palatino Linotype'; font-weight: bold">100 Days of Code - Python.</p>
+# <p align="center"><i>100 Days of Code - Python.</i></p>
 
 <p>A comprehensive collection of Python projects developed over 100 days, showcasing skills from basic programming to 
 advanced concepts. This repo includes beginner to advanced tasks, focusing on data science, web development, automation,
@@ -75,7 +75,7 @@ and game development, utilising various libraries and tools.</p>
   * [Challenge](Day45/Day45_Challenge.py): Top tech article of the day. (Beautiful Soup, Web Scraping, Requests and Pandas)
 * [Day 46](Day46/Day46.py): Musical Time Machine. (Requests, Beautiful Soup, Web Scraping, Datetime and Spotipy API)
 * [Day 47](Day47/Day47.py): Amazon Price Tracker. (Requests, Beautiful Soup, Web Scraping OS, DotEnv and Smtplib)
-* [Day 48](Day48/Day48.py): 
+* [Day 48](Day48/Day48.py): Cookie Clicker Project. (Selenium Webdriver)
 * [Day 49](Day49/Day49.py): 
 * [Day 50](Day50/Day50.py): 
 * [Day 51](Day51/Day51.py): 
