@@ -12,6 +12,9 @@ PROMISED_UP = 75
 TWITTER_EMAIL = os.getenv("TWITTER_EMAIL")
 TWITTER_PASSWORD = os.getenv("TWITTER_PASSWORD")
 
+print("Day 51 - 100 Days of Code.")
+print("Welcome to Internet Speed Twitter Complaint Bot.")
+
 
 class InternetSpeedTwitterBot:
     def __init__(self):
