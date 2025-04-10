@@ -76,7 +76,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 46](Day46/Day46.py): Musical Time Machine. (Requests, Beautiful Soup, Web Scraping, Datetime and Spotipy API)
 * [Day 47](Day47/Day47.py): Amazon Price Tracker. (Requests, Beautiful Soup, Web Scraping OS, DotEnv and Smtplib)
 * [Day 48](Day48/Day48.py): Cookie Clicker Project. (Selenium Webdriver)
-* [Day 49](Day49/Day49.py): 
+* [Day 49](Day49/Day49.py): Automating Job Applications on LinkedIn. (Selenium, OS, DotEnv and Time)
 * [Day 50](Day50/Day50.py): 
 * [Day 51](Day51/Day51.py): 
 * [Day 52](Day52/Day52.py): 
