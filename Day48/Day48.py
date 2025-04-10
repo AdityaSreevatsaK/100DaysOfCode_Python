@@ -7,6 +7,9 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=options)
 
+print("Day 48 - 100 Days of Code.")
+print("Welcome to Cookie Clicker Project.")
+
 driver.get("http://orteil.dashnet.org/experiments/cookie/")
 cookie = driver.find_element(By.ID, "cookie")
 item_ids = [item.get_attribute("id") for item in driver.find_elements(By.CSS_SELECTOR, "#store div")]

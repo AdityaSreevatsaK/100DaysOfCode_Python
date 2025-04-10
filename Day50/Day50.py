@@ -14,6 +14,9 @@ FB_PASSWORD = os.getenv("FB_PASSWORD")
 
 wait_time = 2
 
+print("Day 50 - 100 Days of Code.")
+print("Welcome to Tinder Auto Swiping Bot.")
+
 driver = webdriver.Chrome()
 driver.get("http://www.tinder.com")
 
