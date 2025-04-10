@@ -77,7 +77,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 47](Day47/Day47.py): Amazon Price Tracker. (Requests, Beautiful Soup, Web Scraping OS, DotEnv and Smtplib)
 * [Day 48](Day48/Day48.py): Cookie Clicker Project. (Selenium Webdriver)
 * [Day 49](Day49/Day49.py): Automating Job Applications on LinkedIn. (Selenium, OS, DotEnv and Time)
-* [Day 50](Day50/Day50.py): 
+* [Day 50](Day50/Day50.py): Tinder Auto Swiping Bot. (Selenium, OS and Time)
 * [Day 51](Day51/Day51.py): 
 * [Day 52](Day52/Day52.py): 
 * [Day 53](Day53/Day53.py): 
