@@ -78,8 +78,8 @@ and game development, utilising various libraries and tools.</p>
 * [Day 48](Day48/Day48.py): Cookie Clicker Project. (Selenium Webdriver)
 * [Day 49](Day49/Day49.py): Automating Job Applications on LinkedIn. (Selenium, OS, DotEnv and Time)
 * [Day 50](Day50/Day50.py): Tinder Auto Swiping Bot. (Selenium, DotEnv, OS and Time)
-* [Day 51](Day51/Day51.py): Internet Speed Twitter Complaint Bot. (Selenium, DotEnv, OS, Time)
-* [Day 52](Day52/Day52.py): 
+* [Day 51](Day51/Day51.py): Internet Speed Twitter Complaint Bot. (Selenium, DotEnv, OS and Time)
+* [Day 52](Day52/Day52.py): Instagram Follower Bot (Selenium, OS, DotEnv and Time)
 * [Day 53](Day53/Day53.py): 
 * [Day 54](Day54/Day54.py): 
 * [Day 55](Day55/Day55.py): 
