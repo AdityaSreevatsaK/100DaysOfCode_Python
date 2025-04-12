@@ -75,12 +75,12 @@ and game development, utilising various libraries and tools.</p>
   * [Challenge](Day45/Day45_Challenge.py): Top tech article of the day. (Beautiful Soup, Web Scraping, Requests and Pandas)
 * [Day 46](Day46/Day46.py): Musical Time Machine. (Requests, Beautiful Soup, Web Scraping, Datetime and Spotipy API)
 * [Day 47](Day47/Day47.py): Amazon Price Tracker. (Requests, Beautiful Soup, Web Scraping OS, DotEnv and Smtplib)
-* [Day 48](Day48/Day48.py): Cookie Clicker Project. (Selenium Webdriver)
+* [Day 48](Day48/Day48.py): Cookie Clicker Project. (Selenium and Time)
 * [Day 49](Day49/Day49.py): Automating Job Applications on LinkedIn. (Selenium, OS, DotEnv and Time)
 * [Day 50](Day50/Day50.py): Tinder Auto Swiping Bot. (Selenium, DotEnv, OS and Time)
 * [Day 51](Day51/Day51.py): Internet Speed Twitter Complaint Bot. (Selenium, DotEnv, OS and Time)
 * [Day 52](Day52/Day52.py): Instagram Follower Bot (Selenium, OS, DotEnv and Time)
-* [Day 53](Day53/Day53.py): 
+* [Day 53](Day53/Day53.py): Data Entry Job Automation - Capstone. (Beautiful Soup, Selenium, Requests and Time)
 * [Day 54](Day54/Day54.py): 
 * [Day 55](Day55/Day55.py): 
 * [Day 56](Day56/Day56.py): 
