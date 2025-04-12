@@ -11,8 +11,8 @@ print("Day 48 - 100 Days of Code.")
 print("Welcome to Cookie Clicker Project.")
 
 driver.get("http://orteil.dashnet.org/experiments/cookie/")
-cookie = driver.find_element(By.ID, "cookie")
-item_ids = [item.get_attribute("id") for item in driver.find_elements(By.CSS_SELECTOR, "#store div")]
+cookie = driver.find_element(by=By.ID, value="cookie")
+item_ids = [item.get_attribute("id") for item in driver.find_elements(by=By.CSS_SELECTOR, value="#store div")]
 
 timeout = time.time() + 1
 end_time = time.time() + 60
@@ -21,14 +21,14 @@ while True:
     cookie.click()
 
     if time.time() > timeout:
-        all_prices = driver.find_elements(By.CSS_SELECTOR, "#store b")
+        all_prices = driver.find_elements(by=By.CSS_SELECTOR, value="#store b")
         item_prices = []
 
         for price in all_prices:
             text = price.text
             if "-" in text:
                 try:
-                    cost = int(text.split("-")[1].strip().replace(",", ""))
+                    cost = int(text.split("-")[1].strip().replace(__old=",", __new=""))
                     item_prices.append(cost)
                 except ValueError:
                     continue
@@ -36,7 +36,7 @@ while True:
         upgrades = {cost: id_ for cost, id_ in zip(item_prices, item_ids)}
 
         try:
-            money = int(driver.find_element(By.ID, "money").text.replace(",", ""))
+            money = int(driver.find_element(by=By.ID, value="money").text.replace(__old=",", __new=""))
         except ValueError:
             money = 0
 
@@ -49,7 +49,7 @@ while True:
         timeout = time.time() + 5
 
     if time.time() > end_time:
-        print(driver.find_element(By.ID, "cps").text.title())
+        print(driver.find_element(by=By.ID, value="cps").text.title())
         break
 
 driver.quit()
