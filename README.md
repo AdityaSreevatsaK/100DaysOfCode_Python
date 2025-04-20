@@ -81,7 +81,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 51](Day51/Day51.py): Internet Speed Twitter Complaint Bot. (Selenium, DotEnv, OS and Time)
 * [Day 52](Day52/Day52.py): Instagram Follower Bot (Selenium, OS, DotEnv and Time)
 * [Day 53](Day53/Day53.py): Data Entry Job Automation - Capstone. (Beautiful Soup, Selenium, Requests and Time)
-* [Day 54](Day54/Day54.py): 
+* [Day 54](Day54/Day54.py): Function's execution time calculator - Decorator. (Flask)
 * [Day 55](Day55/Day55.py): 
 * [Day 56](Day56/Day56.py): 
 * [Day 57](Day57/Day57.py): 
