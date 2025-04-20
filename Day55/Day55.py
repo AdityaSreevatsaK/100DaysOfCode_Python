@@ -7,6 +7,9 @@ correct_guess_gif = "https://media.giphy.com/media/4T7e4DmcrP9du/giphy.gif"
 too_low_gif = "https://media.giphy.com/media/jD4DwBtqPXRXa/giphy.gif"
 too_high_gif = "https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif"
 
+print("Day 55 - 100 Days of Code.")
+print("Welcome to Higher Lower Game.")
+
 app = Flask(__name__)
 
 random_number = random.choice(range(0, 10))
@@ -14,7 +17,7 @@ random_number = random.choice(range(0, 10))
 
 @app.route('/')
 def home_screen():
-    return ('<h1 align="center">Hey there! Guess a number between 0 and 9.<br/>'
+    return ('<h1 align="center">Hey there! Guess a number between 0 and 9 (both inclusive).<br/>'
             f'<img src="{numbers_gif}" alt="Numbers GIF." />')
 
 
@@ -34,4 +37,4 @@ def check_whether_correct_guess(guess):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()  # add argument debug=True when you want to see the change as and when changed and saved.
