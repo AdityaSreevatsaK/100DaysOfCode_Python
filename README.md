@@ -83,8 +83,10 @@ and game development, utilising various libraries and tools.</p>
 * [Day 53](Day53/Day53.py): Data Entry Job Automation - Capstone. (Beautiful Soup, Selenium, Requests and Time)
 * [Day 54](Day54/Day54.py): Function's execution time calculator - Decorator. (Flask)
 * [Day 55](Day55/Day55.py): Higher Lower Game! (Flask, Random)
-* [Day 56](Day56/Day56.py): Name Card. (Flask, )
-* [Day 57](Day57/Day57.py): 
+* [Day 56](Day56/Day56.py): Name Card. (Flask, HTML, CSS, JavaScript)
+* [Day 57](Day57/Day57.py): Blog Website. (Flask, Jinja, Requests)
+  * [Challenge 1](Day57/Challenge%201/Day57_Challenge1.py): Dynamic values being passed from python to HTML. (Flask, HTML)
+  * [Challenge 2](Day57/Challenge%202/Day57_Challenge2.py): Age and Gender Guesser Based on Name. (Flask, HTML)
 * [Day 58](Day58/Day58.py): 
 
 ## Advanced.

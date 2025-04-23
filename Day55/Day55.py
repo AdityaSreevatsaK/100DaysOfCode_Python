@@ -37,4 +37,4 @@ def check_whether_correct_guess(guess):
 
 
 if __name__ == '__main__':
-    app.run()  # add argument debug=True when you want to see the change as and when changed and saved.
+    app.run()  # add argument debug=True when you want to see the change upon saving.

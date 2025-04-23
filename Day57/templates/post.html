@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="top">
+        <div class="title">
+            <div class="title" align="center"><h1>My Blog</h1></div>
+        </div>
+        <a href="{{ url_for('home') }}" style="display: inline-block; margin-left: 30%; text-align: center;">&lt;Back</a>
+    </div>
+    {% for blog in blogs_response %}
+        {% if blog.get('id') == blog_number: %}
+            <div class="content">
+                <div class="card">
+                    <h2>{{ blog.get('title') }}</h2>
+                    <p>{{ blog.get('body') }}</p>
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+</body>
+<footer>
+    <p>Made with ♥️ in Bengaluru.</p>
+</footer>
+</html>
