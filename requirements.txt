@@ -58,7 +58,7 @@ pdf2docx==0.5.8
 pdf2image==1.17.0
 pillow==10.3.0
 platformdirs==4.2.2
-prompt_toolkit==3.0.47
+prompt_toolkit==3.0.51
 psutil==6.0.0
 pure-eval==0.2.2
 pycparser==2.22
