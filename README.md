@@ -87,7 +87,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 57](Day57/Day57.py): Blog Website. (Flask, Jinja, Requests)
   * [Challenge 1](Day57/Challenge%201/Day57_Challenge1.py): Dynamic values being passed from python to HTML. (Flask, HTML)
   * [Challenge 2](Day57/Challenge%202/Day57_Challenge2.py): Age and Gender Guesser Based on Name. (Flask, HTML)
-* [Day 58](Day58/Day58.py): 
+* [Day 58](Day58/templates/Day58.html): TinDog - Startup's Website (HTML, CSS, Bootstrap)
 
 ## Advanced.
 * [Day 59](Day59/Day59.py): 
