@@ -31,7 +31,7 @@ if send_email_flag:
             randomised_email += line
 
     randomised_email = "Subject:Happy Birthday!\n\n" + randomised_email.replace("[NAME]", recipient_name)
-    print(randomised_email)
+    print("[INFO] Birthday email prepared and ready to be sent.")
     with smtplib.SMTP("SMTP.gmail.com") as connection:
         # connection.starttls() - Starts the transport layer security.
         # Encrypts your email such that no one in between can intercept and read it.
