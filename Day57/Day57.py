@@ -36,4 +36,4 @@ def get_blog(blog_number):
 
 if __name__ == "__main__":
     blogs_response = requests.get(url=blogs_api_url).json()
-    app.run(debug=True)  # add argument debug=True when you want to see the change upon saving.
+    app.run()  # add argument debug=True when you want to see the change upon saving.
