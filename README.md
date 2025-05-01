@@ -90,7 +90,7 @@ and game development, utilising various libraries and tools.</p>
 * [Day 58](Day58/templates/Day58.html): TinDog - Startup's Website (HTML, CSS, Bootstrap)
 
 ## Advanced.
-* [Day 59](Day59/Day59.py): 
+* [Day 59](Day59/Day59.py): Upgraded Blog (Flask, HTML, CSS, Bootstrap)
 * [Day 60](Day60/Day60.py): 
 * [Day 61](Day61/Day61.py): 
 * [Day 62](Day62/Day62.py): 
