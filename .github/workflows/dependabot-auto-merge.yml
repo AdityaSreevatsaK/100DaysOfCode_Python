@@ -1,19 +1,23 @@
-name: Auto-merge Dependabot updates
+name: Label and Auto-merge Dependabot PRs
 
 on:
   pull_request:
-    types:
-      - opened
-      - labeled
-      - synchronize
+    types: [opened, synchronize, labeled]
 
 jobs:
-  automerge:
+  label-and-automerge:
     if: github.actor == 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
-      - name: Auto-merge Dependabot PR
-        uses: "peter-evans/enable-pull-request-automerge@v3"
+      - name: Add automerge label
+        uses: actions-ecosystem/action-add-labels@v1
         with:
-          token: "${{ secrets.GITHUB_TOKEN }}"
+          labels: automerge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Enable auto-merge
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           merge-method: squash
