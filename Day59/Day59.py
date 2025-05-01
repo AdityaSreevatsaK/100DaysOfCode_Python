@@ -8,27 +8,54 @@ app = Flask(__name__)
 
 @app.route('/')
 def get_all_posts():
-    return render_template("index.html", all_posts=posts)
+    """
+    Fetches all blog posts and renders the homepage.
+
+    Returns:
+        str: Rendered HTML template for the homepage with all blog posts.
+    """
+    return render_template(template_name_or_list="index.html", all_posts=posts)
 
 
 @app.route("/about")
 def about():
-    return render_template("about.html")
+    """
+    Renders the "About" page.
+
+    Returns:
+        str: Rendered HTML template for the "About" page.
+    """
+    return render_template(template_name_or_list="about.html")
 
 
 @app.route("/contact")
 def contact():
-    return render_template("contact.html")
+    """
+    Renders the "Contact" page.
+
+    Returns:
+        str: Rendered HTML template for the "Contact" page.
+    """
+    return render_template(template_name_or_list="contact.html")
 
 
 @app.route("/post/<int:index>")
 def show_post(index):
+    """
+    Renders a specific blog post based on its ID.
+
+    Args:
+        index (int): The ID of the blog post to display.
+
+    Returns:
+        str: Rendered HTML template for the specific blog post.
+    """
     requested_post = None
     for blog_post in posts:
         if blog_post["id"] == index:
             requested_post = blog_post
-    return render_template("post.html", post=requested_post)
+    return render_template(template_name_or_list="post.html", post=requested_post)
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    app.run(port=5000)
