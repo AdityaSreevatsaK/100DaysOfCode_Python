@@ -22,7 +22,7 @@ debugpy==1.8.14
 decorator==5.1.1
 docx2pdf==0.1.8
 dotenv==0.9.9
-executing==2.0.1
+executing==2.2.0
 fire==0.7.0
 Flask==3.1.0
 fonttools==4.57.0
