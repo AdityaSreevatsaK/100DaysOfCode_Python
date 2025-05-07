@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ github.head_ref || github.ref_name }}
       - name: Add 'automerge' label
         uses: actions-ecosystem/action-add-labels@v1
         with:
