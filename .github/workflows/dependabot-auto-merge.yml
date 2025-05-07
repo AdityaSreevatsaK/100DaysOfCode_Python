@@ -15,7 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0
       - name: Add 'automerge' label
         uses: actions-ecosystem/action-add-labels@v1
         with:
