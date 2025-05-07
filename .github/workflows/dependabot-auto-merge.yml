@@ -13,6 +13,9 @@ jobs:
     if: github.event.pull_request.user.login == 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Add 'automerge' label
         uses: actions-ecosystem/action-add-labels@v1
         with:
