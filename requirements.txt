@@ -24,7 +24,7 @@ docx2pdf==0.1.8
 dotenv==0.9.9
 executing==2.2.0
 fire==0.7.0
-Flask==3.1.0
+Flask==3.1.1
 fonttools==4.57.0
 frozenlist==1.6.0
 h11==0.16.0
