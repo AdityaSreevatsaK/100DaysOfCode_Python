@@ -62,7 +62,7 @@ prompt_toolkit==3.0.51
 psutil==7.0.0
 pure-eval==0.2.3
 pycparser==2.22
-Pygments==2.18.0
+Pygments==2.19.1
 PyJWT==2.10.1
 PyMuPDF==1.25.4
 pyparsing==3.1.4
