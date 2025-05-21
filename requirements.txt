@@ -79,7 +79,7 @@ pywin32==306
 pyzmq==26.4.0
 redis==5.2.1
 requests==2.32.3
-scikit-learn==1.5.2
+scikit-learn==1.6.1
 scipy==1.14.1
 seaborn==0.13.2
 selenium==4.31.0
