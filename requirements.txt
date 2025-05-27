@@ -64,7 +64,7 @@ pure-eval==0.2.3
 pycparser==2.22
 Pygments==2.19.1
 PyJWT==2.10.1
-PyMuPDF==1.25.4
+PyMuPDF==1.26.0
 pyparsing==3.2.3
 PyPDF2==3.0.1
 pyperclip==1.8.2
